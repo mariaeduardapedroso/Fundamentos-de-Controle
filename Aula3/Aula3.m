@@ -5,7 +5,7 @@ ct=ilaplace(C);%laplace inversa
 
 t=0:0.01:1;%valores
 plot(t,1/2 - exp(-2*t)/2);
-%%
+%%SEGUNDO EXERCICIO
 syms s
 
 C = 1/(s*(s+4)*(s+8));
