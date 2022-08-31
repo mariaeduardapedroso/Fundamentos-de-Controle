@@ -32,3 +32,7 @@ pretty(B)
 %% EXERCICIO 2 COM STEP
 g=tf([1 2 1],[1 5 2]);
 step(g)
+
+%% EXERCICIO vr2 COM STEP
+g=tf([1 -1 0],[1 5 2]);
+step(g)
